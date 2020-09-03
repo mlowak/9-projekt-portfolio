@@ -1,0 +1,4 @@
+* {
+    /* ustawianie szerokości, a elementy będą miały paddingi lub ramki, one mają być liczone do tej szerokości*/
+    box-sizing: border-box;
+}
