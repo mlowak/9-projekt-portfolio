@@ -98,7 +98,11 @@ section {
     background-color: #007bff;
 }
 
-/* DROP DOWN MENU ZA POMOCĄ CSS */
+/* DROP DOWN MENU ZA POMOCĄ CSS (drop-nav i label)*/
+#drop-nav {
+    display: none;
+}
+
 label[for="drop-nav"] {
     display: none;
 }
@@ -305,5 +309,11 @@ label[for="drop-nav"] {
         display: block;
     }
 
+    .main-nenu ul .menu-item {
+        display: block;
+        text-align: right;
+        margin: 0;
+
+    }
 
 }
