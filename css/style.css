@@ -301,5 +301,9 @@ label[for="drop-nav"] {
         display: none;
     }
 
+    #drop-nav:checked + ul {
+        display: block;
+    }
+
 
 }
