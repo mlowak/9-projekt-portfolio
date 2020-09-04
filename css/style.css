@@ -115,12 +115,12 @@ label[for="drop-nav"] {
     text-align: center;
 }
 
-.main-menu ul .main-item {
+.main-menu ul .menu-item {
     display: inline-block;
     margin: 0 10px;
 }
 
-.main-menu ul .main-item a {
+.main-menu ul .menu-item a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -129,7 +129,7 @@ label[for="drop-nav"] {
     transition: all .3s;
 }
 
-.main-menu ul .main-item a:hover {
+.main-menu ul .menu-item a:hover {
     color: #007bff;
     background-color: #fff;
 }
@@ -209,7 +209,8 @@ label[for="drop-nav"] {
     justify-content: space-between;
 }
 
-.contact input[type="text"], .contact input[type="email"] {
+.contact input[type="text"], 
+.contact input[type="email"] {
     flex-basis: 48%;
     padding: 15px;
     margin-bottom: 15px;
@@ -241,7 +242,7 @@ label[for="drop-nav"] {
 
 /* FOOTER */
 
-.mian-footer {
+.main-footer {
     background-color: #f2f1ed;
     padding: 30px;
     text-align: center;
@@ -282,7 +283,8 @@ label[for="drop-nav"] {
         max-height: 200px;
         max-width: 200px;
     }
-    .contact input[type="text"], .contact input[type="email"] {
+    .contact input[type="text"], 
+    .contact input[type="email"] {
         flex-basis: 100%;
     }
     /* DROP DOWN MENU ZA POMOCĄ CSS */
